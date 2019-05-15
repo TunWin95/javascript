@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Testing JQuery</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".panel1").click(function(){
+                $(this).hide();
+            });
+            $(".panel2").click(function(){
+                $(this).css({color:'red'});
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="panel1" style="border: 1px solid black;padding:10px;margin:5px;">
+            <p>HI, This is Panel 1</p>
+        </div>
+        <div class="panel2" style="border: 1px solid black;padding:10px;margin:5px;">
+            <p>HI, This is Panel 2</p>
+        </div>
+    </div>
+</body>
+</html>
