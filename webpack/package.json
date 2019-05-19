@@ -1,0 +1,24 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "Sample webpack app",
+  "main": "app.js",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "css-loader": "^2.1.1",
+    "style-loader": "^0.23.1",
+    "webpack-cli": "^3.3.2"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "Sample webpack app",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "app.js"
+  }
+}
